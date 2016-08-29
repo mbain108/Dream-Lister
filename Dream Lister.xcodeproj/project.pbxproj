@@ -22,6 +22,7 @@
 		E2CE1B371D74935B00DADF6C /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CE1B2F1D74935B00DADF6C /* Store+CoreDataClass.swift */; };
 		E2CE1B381D74935B00DADF6C /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CE1B301D74935B00DADF6C /* Store+CoreDataProperties.swift */; };
 		E2CE1B3D1D749B1300DADF6C /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CE1B3C1D749B1300DADF6C /* MaterialView.swift */; };
+		E2CE1B3F1D749D6300DADF6C /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CE1B3E1D749D6300DADF6C /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E2CE1B2F1D74935B00DADF6C /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E2CE1B301D74935B00DADF6C /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E2CE1B3C1D749B1300DADF6C /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		E2CE1B3E1D749D6300DADF6C /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				E2CE1B3C1D749B1300DADF6C /* MaterialView.swift */,
+				E2CE1B3E1D749D6300DADF6C /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CE1B3F1D749D6300DADF6C /* ItemCell.swift in Sources */,
 				E2CE1B361D74935B00DADF6C /* Image+CoreDataProperties.swift in Sources */,
 				E2CE1B341D74935B00DADF6C /* Item+CoreDataProperties.swift in Sources */,
 				E2CE1B331D74935B00DADF6C /* Item+CoreDataClass.swift in Sources */,
