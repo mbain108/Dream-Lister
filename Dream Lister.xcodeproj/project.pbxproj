@@ -80,14 +80,14 @@
 		E2CE1B131D74897E00DADF6C /* Dream Lister */ = {
 			isa = PBXGroup;
 			children = (
-				E2CE1B3B1D749AF600DADF6C /* View */,
-				E2CE1B391D74936600DADF6C /* Model */,
-				E2CE1B141D74897E00DADF6C /* AppDelegate.swift */,
-				E2CE1B401D74AD2B00DADF6C /* Controller */,
-				E2CE1B181D74897E00DADF6C /* Main.storyboard */,
-				E2CE1B1E1D74897E00DADF6C /* Assets.xcassets */,
-				E2CE1B201D74897E00DADF6C /* LaunchScreen.storyboard */,
 				E2CE1B231D74897E00DADF6C /* Info.plist */,
+				E2CE1B401D74AD2B00DADF6C /* Controller */,
+				E2CE1B391D74936600DADF6C /* Model */,
+				E2CE1B3B1D749AF600DADF6C /* View */,
+				E2CE1B1E1D74897E00DADF6C /* Assets.xcassets */,
+				E2CE1B141D74897E00DADF6C /* AppDelegate.swift */,
+				E2CE1B201D74897E00DADF6C /* LaunchScreen.storyboard */,
+				E2CE1B181D74897E00DADF6C /* Main.storyboard */,
 				E2CE1B1B1D74897E00DADF6C /* Dream_Lister.xcdatamodeld */,
 			);
 			path = "Dream Lister";
