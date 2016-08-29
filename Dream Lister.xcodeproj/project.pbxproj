@@ -120,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				E2CE1B431D74B85500DADF6C /* CustomTextField.swift */,
-				E2CE1B3C1D749B1300DADF6C /* MaterialView.swift */,
 				E2CE1B3E1D749D6300DADF6C /* ItemCell.swift */,
+				E2CE1B3C1D749B1300DADF6C /* MaterialView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -386,6 +386,7 @@
 				E2CE1B281D74897E00DADF6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -150,7 +150,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePick" translatesAutoresizingMaskIntoConstraints="NO" id="SHO-gk-L4G">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePick" translatesAutoresizingMaskIntoConstraints="NO" id="SHO-gk-L4G" userLabel="thumbnailImage">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="4IX-ZK-eRi"/>
                                     <constraint firstAttribute="width" constant="100" id="WVn-dM-sHN"/>
@@ -161,6 +161,9 @@
                                     <constraint firstAttribute="height" constant="100" id="FWq-s6-N9l"/>
                                     <constraint firstAttribute="width" constant="100" id="S5c-5n-Mmh"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="addImagePressed:" destination="Wun-KS-u9P" eventType="touchUpInside" id="Xtw-bM-Ksb"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="os9-xN-r7R" customClass="CustomTextField" customModule="Dream_Lister" customModuleProvider="target">
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -245,12 +248,16 @@
                     <navigationItem key="navigationItem" title="Add/Edit" id="U2G-eC-abd">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="a4u-Yv-yzP">
                             <color key="tintColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="deleteButtonPressed:" destination="Wun-KS-u9P" id="Mi8-9S-btX"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="descriptionField" destination="U7F-01-POT" id="Ij3-Hx-iPI"/>
                         <outlet property="priceField" destination="sWK-cG-JbJ" id="7lJ-91-TvD"/>
                         <outlet property="storePicker" destination="cLE-Xd-B9c" id="Gtx-2v-rWZ"/>
+                        <outlet property="thumbnailImage" destination="SHO-gk-L4G" id="jhD-Ht-979"/>
                         <outlet property="titleField" destination="os9-xN-r7R" id="QZp-jY-E7O"/>
                     </connections>
                 </viewController>
@@ -263,7 +270,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QWz-oO-9XP" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="L08-e9-EFC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="L08-e9-EFC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

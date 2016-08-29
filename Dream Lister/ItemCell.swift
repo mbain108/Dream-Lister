@@ -17,6 +17,7 @@ class ItemCell: UITableViewCell {
  
     func configureCell(item: Item) {
         
+        thumbnailImage.image = item.toImage?.image as? UIImage
         titleLabel.text = item.title
         priceLabel.text = "$\(item.price)"
         descriptionLabel.text = item.details
