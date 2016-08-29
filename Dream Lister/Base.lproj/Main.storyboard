@@ -33,7 +33,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3g3-LK-hCz">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="150" id="P0g-Jv-RMd" customClass="ItemCell" customModule="Dream_Lister" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="150" id="P0g-Jv-RMd" customClass="ItemCell" customModule="Dream_Lister" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P0g-Jv-RMd" id="TPb-yG-c3U">
@@ -131,7 +131,7 @@
                     <connections>
                         <outlet property="segment" destination="T3Q-B9-R0Z" id="4Fv-nk-zNH"/>
                         <outlet property="tableView" destination="3g3-LK-hCz" id="IOb-oO-dxB"/>
-                        <segue destination="Wun-KS-u9P" kind="show" identifier="ItemDetailsVC" id="mRA-ze-xO3"/>
+                        <segue destination="Wun-KS-u9P" kind="show" identifier="ItemDetailsVC" id="tFh-aG-o1l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -287,6 +287,6 @@
         <image name="tesla" width="800" height="489"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mRA-ze-xO3"/>
+        <segue reference="tFh-aG-o1l"/>
     </inferredMetricsTieBreakers>
 </document>
