@@ -78,7 +78,10 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
         
-            self.controller = controller
+        controller.delegate = self
+        
+        self.controller = controller
+        
         do {
             try controller.performFetch()
         } catch {
